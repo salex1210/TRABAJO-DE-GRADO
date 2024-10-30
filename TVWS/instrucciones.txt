@@ -1,0 +1,9 @@
+Instalar SoapySDR y los controladores
+Ejecutar git clone https://gitlab.com/librespacefoundation/gr-soapy
+Ir a cd gr-soapy
+Crear mkdir build
+Ir a cd build
+Ejecutar cmake ..
+Ejecutar make -j
+Ejecutar sudo make install
+Ejecutar sudo ldconfig 
